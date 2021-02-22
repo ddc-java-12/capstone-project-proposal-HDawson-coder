@@ -37,6 +37,8 @@ A game to be played on a mobile device. The game will have several containers of
 * **External services**
 
     https://developers.google.com/identity/sign-in/web
+
+  https://developers.facebook.com/docs/facebook-login/android
   
  
 ## Stretch goals/possible enhancements 
