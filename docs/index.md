@@ -1,33 +1,24 @@
 ## Summary
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the software you propose to develop in this project.
+A game to be played on a mobile device. The game will have several containers of different colored objects in each. The goal of the game is to sort all colors in to the objects so they only have one of each color in each container. You can only move one object at a time and each container can only hold a maximum of 5 objects at a time.
 
 ## Intended users
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
+* As a person who has free time on their hand during long bus rides, I would like to have a game to play on my phone that is easy to pick up and put down to make the bus rides feel shorter.
 
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user needs to perform, and the benefit that will be obtained. The simplest user stories take the form 
-
-> As a <type of intended user (_who_)> I want to <goal (_what_)> so that <benefit (_why_).
-
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
-
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
-
-* People who like to use randomness in their decision making.
-
-    > As someone who enjoys randomness in my life, I need an app that lets me flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness, without having to carry coins or dice in my pockets.
-
+* As someone who has children, I like to give them my cell phone to keep them occupied when they need to be still and quiet. This game can acheive that while also making their brains work a little while they figure out the puzzles.
 ## Client component
 
 * **Functionality**
 
-    List the key functional aspects that will be provided by the user interface---i.e. tell us what the user will be able to do in the GUI.
-
+    The user will be able to sign in through a cloud service to keep track of their levels passed even when playing on other devices, as well as see their scores against other friends by logging in through Facebook.
+    Once logged in the player will be able to start playing the game. The game consists of several "containers" with colored objects in them of varying colors. The user will have to sort the colored objects so that they are all in containers with only objects of the same color. The user can only move one object at a time and each container can hold a maximum of 5 objects at a time. 
+    There will be settings to edit their log in settings, add friends to see their scores, edit noise/music settings.
+  
 * **Persistent data**
 
-    Summarize, in general terms, what content will be stored on the client side. This should include any information that a user of your system should expect to be maintained locally (i.e. without connection to a server) across multiple sessions of use, on a single device. 
-    
+     The app will store the levels the player has reached even while not connected to the internet, and the player will be able to access and continue to play the game and levels.
+
 * **Device/external services**
 
     If the client component will need to access special services of the device (e.g. sensors, contacts, messaging), list them here. Also, if the client component will need to access already-existing external services (e.g. real-time weather data, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
@@ -38,18 +29,17 @@ For listing multiple items, please use bullet lists (or ordered lists, if order 
 
 * **Functionality**
 
-    List the key functional aspects that will be provided by the server component---i.e. tell us what parts of the system functionality will be performed by the server.
+    The servers will have to randomize the placements of the colored objects in the containers, progressivly increasing the difficulty of the levels.
 
 * **Persistent data**
 
-    Summarize, in general terms, what content will be stored on the server side. This should include any information that a user of your system should expect to be accessible across multiple sessions of use, even if accessed from separate devices. In addition, if there will be data originating from some users that will then be accessible by other users, it should be part of the persistent data on the server. 
+    The leaderboard (levels reached) will be in the persistent data. Players will be able to access their log in and resume play from beaten levels when logging in across platforms. They will also be able to see friends and others high scores.
     
 * **External services**
 
-    If the server component will need to access already-existing external services (e.g. stock prices, Open Movie Database), those should also be listed here. Any such references to external services should include links to the main page or API description page for the service.
-    
-For listing multiple items, please use bullet lists (or ordered lists, if order is relevant), not just separate lines or paragraphs of text.
-    
+    https://developers.google.com/identity/sign-in/web
+  
+ 
 ## Stretch goals/possible enhancements 
 
-If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.
+Potentially having music playing in the game and noises when things are moved or interacted with.
