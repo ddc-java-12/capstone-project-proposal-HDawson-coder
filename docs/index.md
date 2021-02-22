@@ -7,6 +7,7 @@ A game to be played on a mobile device. The game will have several containers of
 * As a person who has free time on their hand during long bus rides, I would like to have a game to play on my phone that is easy to pick up and put down to make the bus rides feel shorter.
 
 * As someone who has children, I like to give them my cell phone to keep them occupied when they need to be still and quiet. This game can acheive that while also making their brains work a little while they figure out the puzzles.
+
 ## Client component
 
 * **Functionality**
@@ -21,10 +22,8 @@ A game to be played on a mobile device. The game will have several containers of
 
 * **Device/external services**
 
-    If the client component will need to access special services of the device (e.g. sensors, contacts, messaging), list them here. Also, if the client component will need to access already-existing external services (e.g. real-time weather data, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
-    
-For listing multiple items, please use bullet lists (or ordered lists, if order is relevant), not just separate lines or paragraphs of text.
-    
+    Unsure.
+
 ## Server component
 
 * **Functionality**
