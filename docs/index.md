@@ -12,9 +12,9 @@ A game to be played on a mobile device. The game will have several containers of
 
 * **Functionality**
 
-    The user will be able to sign in through a cloud service to keep track of their levels passed even when playing on other devices, as well as see their scores against other friends by logging in through Facebook.
-    Once logged in the player will be able to start playing the game. The game consists of several "containers" with colored objects in them of varying colors. The user will have to sort the colored objects so that they are all in containers with only objects of the same color. The user can only move one object at a time and each container can hold a maximum of 5 objects at a time. 
-    There will be settings to edit their log in settings, add friends to see their scores, edit noise/music settings.
+    The user will be able to log in through a cloud service to keep track of their levels passed even when playing on other devices, as well as see their scores, and relevant stats.
+    Once logged in the player will be able to start playing the game. The game consists of several "containers" with colored objects in them of varying colors. The user will have to sort the colored objects so that they are all in containers with only objects of the same color. The user can only move one object at a time, each container can hold a maximum of 5 objects at a time, and when moving the objects the user can only place the object on another object of the same color. 
+    There will be a settings page where users can change their display name, or google sign in information. There will also be a page to display stats, such as what level the user has reached, along with time stamps, and moves used to see how quickly they've gone through each level. 
   
 * **Persistent data**
 
@@ -22,7 +22,9 @@ A game to be played on a mobile device. The game will have several containers of
 
 * **Device/external services**
 
-    Unsure.
+    Google Sign in
+    
+    *Google sign in will allow the user to access their same levels from different devices. 
 
 ## Server component
 
@@ -32,7 +34,7 @@ A game to be played on a mobile device. The game will have several containers of
 
 * **Persistent data**
 
-    The leaderboard (levels reached) will be in the persistent data. Players will be able to access their log in and resume play from beaten levels when logging in across platforms. They will also be able to see friends and others high scores.
+    Levels passed, current level, time it took on each level, and moves taken in each level. 
     
 * **External services**
 
@@ -43,4 +45,8 @@ A game to be played on a mobile device. The game will have several containers of
  
 ## Stretch goals/possible enhancements 
 
-Potentially having music playing in the game and noises when things are moved or interacted with.
+Having music playing in the game and noises when things are moved or interacted with.
+
+Add a facebook log in component, this would allow users to see the levels their friends have gotten to along with their statistics.
+
+Add a leaderboard component for users to compare scores with other users using google sign in.
