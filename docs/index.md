@@ -4,9 +4,13 @@ A game to be played on a mobile device. The game will have several containers of
 
 ## Intended users
 
-* As a person who has free time on their hand during long bus rides, I would like to have a game to play on my phone that is easy to pick up and put down to make the bus rides feel shorter.
+* People who use public transportation or spend a lot of time with free time on their hands
 
-* As someone who has children, I like to give them my cell phone to keep them occupied when they need to be still and quiet. This game can acheive that while also making their brains work a little while they figure out the puzzles.
+ As a person who has free time on their hands during long bus rides, I would like to have a game to play on my phone that is easy to pick up and put down to make the bus rides feel shorter.
+
+* Someone with Children
+
+ As someone who has children, I like to give them my cell phone to keep them occupied when they need to be still and quiet. This game can achieve that while also making their brains work a little while they figure out the puzzles.
 
 ## Client component
 
@@ -23,14 +27,14 @@ A game to be played on a mobile device. The game will have several containers of
 * **Device/external services**
 
     Google Sign in
-    
-    *Google sign in will allow the user to access their same levels from different devices. 
 
 ## Server component
 
 * **Functionality**
 
     The servers will have to randomize the placements of the colored objects in the containers, progressivly increasing the difficulty of the levels.
+    
+    Users will be able to access their current level and stats from other devices after logging in.
 
 * **Persistent data**
 
@@ -39,8 +43,6 @@ A game to be played on a mobile device. The game will have several containers of
 * **External services**
 
     https://developers.google.com/identity/sign-in/web
-
-  https://developers.facebook.com/docs/facebook-login/android
   
  
 ## Stretch goals/possible enhancements 
