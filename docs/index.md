@@ -32,7 +32,7 @@ A game to be played on a mobile device. The game will have several containers of
 
 * **Functionality**
 
-    The servers will have to randomize the placements of the colored objects in the containers, progressivly increasing the difficulty of the levels.
+    The servers will have to randomize the placements of the colored objects in the containers, progressively increasing the difficulty of the levels.
     
     Users will be able to access their current level and stats from other devices after logging in.
 
@@ -52,3 +52,5 @@ Having music playing in the game and noises when things are moved or interacted 
 Add a facebook log in component, this would allow users to see the levels their friends have gotten to along with their statistics.
 
 Add a leaderboard component for users to compare scores with other users using google sign in.
+
+Users will be able to invite each other to a "battle" in one level to see who can beat the level in the shortest amount of time or moves.
